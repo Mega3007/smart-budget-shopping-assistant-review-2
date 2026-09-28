@@ -1,6 +1,6 @@
-# [Project name]
+# Smart Budget Shopping Assistant
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Responsive Review 2 continuation prototype for transparent budget-conscious shopping decisions.
 
 ## Run & Operate
 
@@ -22,23 +22,33 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/smart-budget-review-2/src/App.tsx` — source of truth for the local-first app shell, views, calculations, and browser persistence.
+- `artifacts/smart-budget-review-2/src/index.css` — source of truth for the visual theme and responsive utilities.
+- `artifacts/smart-budget-review-2/review-1-baseline/` — preserved Review 1 files from the GitHub baseline.
+- `artifacts/smart-budget-review-2/REVIEW_2_CHANGELOG.md` — Review 1 → Review 2 traceability.
+- `artifacts/smart-budget-review-2/USER_VALIDATION.md` — genuine tester evidence template; no results are fabricated.
+- `artifacts/smart-budget-review-2/AI_INTERACTION_AUDIT.md` — AI decision traceability and limitations.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Review 2 is a frontend-only local-first prototype because no live API or external service is required to demonstrate the continuation track.
+- Demo data is seeded in the browser but real validation data starts empty and is kept separate.
+- Price comparison and assistant behavior are explicitly rule-based/illustrative; the app does not claim live market or LLM data.
+- Review 1 source files are copied into the artifact as a preserved baseline instead of being overwritten.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+The app turns the original one-product budget calculator into a multi-view shopping decision workspace with a persistent shopping list, category budget planner, Need vs Want intelligence, price comparison, explainable recommendations, what-if simulation, analytics, savings goals, a rule-based SmartBudget assistant, and evidence-ready validation workflows.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+The student requested honest, evaluator-friendly Review 2 evidence with no fabricated testers, research, results, live APIs, AI usage, or predicted marks.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- Do not populate tester feedback, iteration outcomes, or validated impact without genuine sessions.
+- Prototype price rows must remain labelled as non-live.
+- The Vite build expects `PORT` and `BASE_PATH` from the artifact workflow.
 
 ## Pointers
 

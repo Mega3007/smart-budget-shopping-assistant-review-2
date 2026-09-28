@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Smart Budget Shopping Assistant"
+description = "A transparent decision-support prototype for budget-conscious shopping, with need-versus-want intelligence, explainable recommendations, what-if planning, analytics, savings goals, and evidence-ready design thinking documentation."
+version = "1.0.0"
+id = "artifacts/smart-budget-review-2"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26206
+
+[services.development]
+run = "pnpm --filter @workspace/smart-budget-review-2 run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/smart-budget-review-2", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/smart-budget-review-2/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26206"
+BASE_PATH = "/"

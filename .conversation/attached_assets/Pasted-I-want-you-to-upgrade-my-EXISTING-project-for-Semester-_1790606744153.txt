@@ -1,0 +1,1237 @@
+I want you to upgrade my EXISTING project for Semester 3 – C29
+“Project Better Tomorrow – Review 2”.
+
+PROJECT NAME:
+Smart Budget Shopping Assistant
+
+EXISTING REVIEW 1 GITHUB REPOSITORY:
+https://github.com/Mega3007/smart-budget-shopping-assistant
+
+IMPORTANT:
+This is NOT a new project.
+Review 1 already received 30.8/35 (88%).
+I need to demonstrate genuine progression from Review 1 to Review 2.
+
+DO NOT delete the existing project.
+DO NOT destroy Review 1 evidence.
+DO NOT create an unrelated replacement project.
+DO NOT fabricate research, users, feedback, results, AI usage, or live APIs.
+
+First inspect the complete existing repository and understand:
+- README.md
+- Problem_Statement.md
+- AI_Ideation_Audit.md
+- index.html
+- script.js
+- style.css
+- all other existing files
+
+Then upgrade the existing application in place.
+
+=========================================================
+PROJECT BETTER TOMORROW CONTEXT
+=========================================================
+
+This project follows Design Thinking:
+
+EMPATHIZE
+→ DEFINE
+→ IDEATE WITH AI
+→ PROTOTYPE
+→ TEST
+→ ITERATE
+
+This project follows PATHWAY A – CONTINUATION TRACK.
+
+Therefore:
+- existing Empathize evidence is carried forward;
+- existing Define stage is carried forward;
+- Review 2 should strongly demonstrate Ideate → Prototype → Test → Iterate;
+- prototype validation must include at least THREE REAL TESTERS;
+- AI interaction must be documented transparently;
+- AI suggestions adopted, modified and rejected should be traceable;
+- hallucinations/incorrect suggestions should be identified where applicable;
+- final prototype improvements should be connected to actual user feedback.
+
+The objective is to make every genuine requirement easy for an AI evaluator
+and human evaluator to verify.
+
+=========================================================
+1. FIRST: AUDIT REVIEW 1
+=========================================================
+
+Before modifying anything, inspect the Review 1 repository.
+
+Create:
+
+REVIEW_2_CHANGELOG.md
+
+Include:
+
+# Review 1 Baseline
+# Review 1 Strengths
+# Review 1 Limitations
+# Review 2 Objectives
+# Features Added
+# Features Improved
+# Bugs Fixed
+# User Feedback Implemented
+# Current Limitations
+# Future Work
+
+Do NOT invent Review 1 features that are not actually in the repository.
+
+Preserve Review 1 documentation.
+
+=========================================================
+2. PROJECT IDENTITY
+=========================================================
+
+Application title:
+
+SMART BUDGET SHOPPING ASSISTANT
+
+Tagline:
+
+“Plan Smarter. Spend Better. Save More.”
+
+Subtitle:
+
+“An intelligent decision-support prototype for everyday budget-conscious shopping.”
+
+Create a polished, professional and responsive interface.
+
+The application should look like a genuine academic innovation project,
+not a generic admin template.
+
+=========================================================
+3. NAVIGATION
+=========================================================
+
+Create a professional sidebar/navigation containing:
+
+Dashboard
+Shopping List
+Budget Planner
+Need vs Want
+Price Comparison
+Smart Recommendations
+What-If Simulator
+Spending Analytics
+Savings Goals
+Ask SmartBudget
+Prototype Validation
+Feedback & Iteration
+Design Thinking Journey
+AI Interaction Audit
+Review 2 Evidence
+Project Evolution
+Settings
+
+Every navigation item MUST work.
+
+Do not create empty pages.
+
+=========================================================
+4. MAIN DASHBOARD
+=========================================================
+
+Create a premium dashboard.
+
+Header:
+
+“Good Evening 👋
+Let’s make today’s shopping smarter.”
+
+Show dynamic KPI cards:
+
+Monthly Budget
+Planned Spending
+Actual Spending
+Remaining Budget
+Potential Savings
+Budget Used %
+Budget Health Score
+
+Example visual:
+
+Budget Health
+82 / 100
+GOOD
+
+IMPORTANT:
+Do NOT hard-code Budget Health.
+
+Calculate it using factors such as:
+- budget utilization;
+- overspending;
+- avoidable WANT spending;
+- potential savings.
+
+Use:
+
+Green = Healthy
+Amber = Caution
+Red = Over Budget
+
+Add progress indicators.
+
+Add:
+
+“Load Demo Data”
+
+and
+
+“Reset Demo Data”
+
+Clearly display:
+
+“Demo data is for prototype demonstration only and is not user-research evidence.”
+
+=========================================================
+5. FUNCTIONAL SHOPPING LIST
+=========================================================
+
+Transform the Review 1 simple calculator into a genuine shopping assistant.
+
+Users must be able to:
+
+Add item
+Edit item
+Delete item
+Mark purchased
+Search
+Filter
+Sort
+
+Fields:
+
+Product Name
+Category
+Quantity
+Estimated Price
+Actual Price
+Need / Want
+Priority
+Preferred Store
+Purchase Status
+
+Categories:
+
+Groceries
+Vegetables
+Fruits
+Household
+Personal Care
+Education
+Electronics
+Medical
+Transport
+Other
+
+Priority:
+
+High
+Medium
+Low
+
+Dynamically calculate:
+
+Estimated Total
+Actual Total
+Difference
+Savings
+Overspending
+Remaining Budget
+
+Persist data using the existing suitable storage architecture.
+
+=========================================================
+6. NEED VS WANT INTELLIGENCE
+=========================================================
+
+Create one distinctive feature:
+
+“Need vs Want Intelligence”
+
+Calculate:
+
+Total NEED spending
+Total WANT spending
+NEED %
+WANT %
+Low-priority WANT spending
+Potential Avoidable Spending
+
+Add a responsive donut chart.
+
+Generate recommendations from actual data.
+
+Example:
+
+“You currently have ₹1,250 allocated to low-priority WANT items.
+Postponing these items would increase your remaining budget by ₹1,250.”
+
+Recommendations must change dynamically.
+
+Do not hard-code insights.
+
+=========================================================
+7. SMART BUDGET PLANNER
+=========================================================
+
+Allow:
+
+Monthly Income
+Monthly Shopping Budget
+Category Budget Allocation
+
+For each category display:
+
+Budget
+Planned
+Actual
+Remaining
+Utilization %
+Status
+
+Create dynamic alerts.
+
+Example:
+
+“Groceries have reached 92% of the allocated budget.”
+
+Use progress bars.
+
+Automatically identify:
+
+Healthy
+Near Limit
+Over Budget
+
+=========================================================
+8. PRICE COMPARISON
+=========================================================
+
+Create a functional prototype Price Comparison module.
+
+Compare sample prices from:
+
+Local Store
+Supermarket
+Online Store A
+Online Store B
+
+Show:
+
+Product
+Store
+Original Price
+Discount
+Final Price
+Best Price
+Potential Saving
+
+Highlight the cheapest option.
+
+Calculate:
+
+Saving amount
+Saving percentage
+Difference between highest and lowest price
+
+IMPORTANT:
+Unless a real API is actually connected, display:
+
+“Prototype price data – not live market prices.”
+
+Never pretend demo data is live data.
+
+=========================================================
+9. SMART RECOMMENDATION ENGINE
+=========================================================
+
+Create a rule-based intelligent recommendation engine using actual
+shopping and budget data.
+
+Possible recommendations:
+
+“Choose Store B and save ₹45.”
+
+“You are ₹500 above your grocery allocation.”
+
+“Postpone these two low-priority WANT items and save ₹900.”
+
+“Your current shopping plan is within budget.”
+
+“Product X accounts for 18% of your planned spending.”
+
+Every recommendation must include:
+
+Recommendation
+Reason
+Potential Saving
+Priority
+Suggested Action
+
+Add:
+
+“Why am I seeing this?”
+
+When clicked, explain the data/rule responsible for the recommendation.
+
+This creates explainable AI-style decision support.
+
+=========================================================
+10. WHAT-IF BUDGET SIMULATOR
+=========================================================
+
+Create a major innovative feature:
+
+“WHAT-IF BUDGET SIMULATOR”
+
+Allow:
+
+Budget increase/decrease %
+Price inflation %
+Remove WANT items %
+Postpone low-priority items
+Apply cheaper-store choices
+
+Compare:
+
+CURRENT PLAN
+vs
+SIMULATED PLAN
+
+Show:
+
+Original Budget
+Original Spending
+Simulated Spending
+Original Remaining
+Simulated Remaining
+Potential Saving
+Budget Status
+
+Update immediately when controls change.
+
+Provide sliders and clear charts.
+
+=========================================================
+11. SPENDING ANALYTICS
+=========================================================
+
+Create interactive charts:
+
+Category-wise Spending – Bar Chart
+Monthly Spending Trend – Line Chart
+Need vs Want – Donut Chart
+Budget vs Actual – Bar Chart
+Savings Trend – Line/Area Chart
+
+Charts must include:
+
+Labels
+Legends
+Tooltips
+Responsive sizing
+Meaningful empty states
+
+Below charts add:
+
+“Smart Insights”
+
+Generate insights from current data.
+
+Do not hard-code conclusions.
+
+=========================================================
+12. SAVINGS GOALS
+=========================================================
+
+Create Savings Goals.
+
+Allow:
+
+Add Goal
+Edit Goal
+Delete Goal
+Add Contribution
+
+Fields:
+
+Goal Name
+Target Amount
+Saved Amount
+Remaining Amount
+Target Date
+Progress %
+
+Example:
+
+Laptop
+₹50,000 target
+₹18,500 saved
+37% complete
+
+Use progress indicators.
+
+=========================================================
+13. ASK SMARTBUDGET
+=========================================================
+
+Create a conversational interface:
+
+“Ask SmartBudget”
+
+Example questions:
+
+“How can I save ₹1,000?”
+“Where am I overspending?”
+“Which WANT items can I postpone?”
+“What is my biggest expense?”
+“Which store offers the best deal?”
+“How can I stay within budget?”
+
+If no external LLM API is connected, create rule-based answers from
+the current user's data.
+
+Clearly state:
+
+“Prototype assistant – recommendations are generated from the budget
+and shopping data currently entered.”
+
+Do NOT falsely claim ChatGPT/Gemini/Claude integration.
+
+=========================================================
+14. REAL USER VALIDATION – CRITICAL
+=========================================================
+
+Create a dedicated page:
+
+“Prototype Validation”
+
+The Project Better Tomorrow requirement is:
+
+AT LEAST THREE REAL TESTERS.
+
+Create a genuine feedback form.
+
+Fields:
+
+Tester ID/Name
+Age Group
+Role
+Testing Date
+Task Tested
+Ease of Use – 1 to 5
+Usefulness – 1 to 5
+Visual Design – 1 to 5
+Most Useful Feature
+Problem Faced
+Suggestion
+Would Use Again? Yes / No
+Additional Comments
+
+IMPORTANT:
+
+DO NOT create fake testers.
+DO NOT pre-fill positive reviews.
+DO NOT fabricate scores.
+
+Initially display:
+
+“0 / 3 required real-user tests completed.”
+
+After genuine feedback:
+
+1 / 3
+2 / 3
+3 / 3
+
+Once real feedback exists, calculate:
+
+Average Ease Score
+Average Usefulness
+Average Design Score
+Would-Use-Again %
+Common Issues
+
+Create charts from ACTUAL submitted feedback.
+
+=========================================================
+15. FEEDBACK → IMPROVEMENT → RETEST
+=========================================================
+
+Create:
+
+“Feedback & Iteration Tracker”
+
+Columns:
+
+Tester
+Feedback
+Problem Identified
+Priority
+Improvement Made
+Before
+After
+Status
+Retest Result
+
+Status:
+
+Identified
+Planned
+In Progress
+Implemented
+Retested
+
+Show a visual process:
+
+TEST
+↓
+LEARN
+↓
+IMPROVE
+↓
+RETEST
+
+This is important Design Thinking evidence.
+
+Only label something “Implemented” if it is genuinely implemented.
+
+=========================================================
+16. DESIGN THINKING JOURNEY
+=========================================================
+
+Create a visual timeline:
+
+EMPATHIZE
+↓
+DEFINE
+↓
+IDEATE WITH AI
+↓
+PROTOTYPE
+↓
+TEST
+↓
+ITERATE
+
+Each stage should be expandable.
+
+EMPATHIZE:
+Show existing genuine empathy evidence from Review 1.
+
+DEFINE:
+Show the existing problem statement.
+
+IDEATE:
+Show AI-assisted idea generation.
+
+PROTOTYPE:
+Show implemented features.
+
+TEST:
+Show genuine tester evidence.
+
+ITERATE:
+Show modifications resulting from feedback.
+
+Clearly label this project:
+
+“Pathway A – Continuation Track”
+
+Do not fabricate evidence.
+
+=========================================================
+17. AI INTERACTION AUDIT
+=========================================================
+
+Upgrade AI_Ideation_Audit.md and provide an in-app visualization.
+
+Fields:
+
+Date
+Stage
+Goal
+Prompt Used
+AI Suggestion
+Decision
+Reason
+Human Correction
+Final Outcome
+
+Decision options:
+
+ADOPTED
+MODIFIED
+REJECTED
+
+Include an additional field:
+
+“Hallucination / Limitation Identified”
+
+Document genuine examples when applicable.
+
+Examples might include:
+- AI proposed an unavailable live-price API;
+- suggestion was too complex for current scope;
+- AI-generated assumption required correction.
+
+DO NOT invent historical interactions.
+
+Clearly mark sample placeholders:
+
+“SAMPLE ONLY – replace with genuine interaction.”
+
+Include:
+
+“AI served as an ideation and development partner. Final decisions
+were reviewed, corrected and selected by the student.”
+
+=========================================================
+18. REVIEW 1 → REVIEW 2 PROJECT EVOLUTION
+=========================================================
+
+Create a prominent section:
+
+“PROJECT EVOLUTION”
+
+Show:
+
+REVIEW 1
+versus
+REVIEW 2
+
+Review 1 should be based only on the actual repository.
+
+Example:
+
+REVIEW 1
+Basic budget input
+Product price
+Quantity
+Total calculation
+Remaining balance
+Initial problem documentation
+Initial AI ideation
+
+REVIEW 2
+Multiple-item shopping list
+Need-vs-Want Intelligence
+Category budgets
+Price comparison prototype
+Dynamic recommendations
+What-If simulation
+Spending analytics
+Savings goals
+SmartBudget assistant
+Real-user validation workflow
+Feedback-driven iteration
+Expanded AI audit
+
+ONLY show Review 2 features as “Implemented” when they actually work.
+
+Use badges:
+
+Implemented
+Testing
+Planned
+
+=========================================================
+19. PROJECT IMPACT
+=========================================================
+
+Create:
+
+“Impact & Outcomes”
+
+Separate two categories.
+
+A. PROTOTYPE-CALCULATED OUTCOMES
+
+Potential Monthly Savings
+Budget Remaining
+Avoidable WANT Spending
+Best Deal Saving
+Budget Utilization
+Budget Health
+
+B. VALIDATED USER OUTCOMES
+
+Ease of Use
+Usefulness
+Design Score
+Would Use Again
+Feedback-Based Improvements
+
+Validated outcomes should remain blank until genuine tester data exists.
+
+Never mix demo metrics with real-user results.
+
+=========================================================
+20. REVIEW 2 EVIDENCE CENTER
+=========================================================
+
+Create a page specifically for evaluators:
+
+“REVIEW 2 EVIDENCE CENTER”
+
+Cards:
+
+1. Problem & Objective
+2. Pathway A Evidence
+3. Review 1 Baseline
+4. Review 2 Improvements
+5. Working Prototype
+6. AI Interaction Audit
+7. Three Real User Tests
+8. Feedback & Iteration
+9. Analytics
+10. Impact
+11. Technical Implementation
+12. GitHub Documentation
+
+Each card should link to the appropriate evidence.
+
+Create:
+
+“Review 2 Evidence Readiness”
+
+Example:
+
+Working Prototype          ✓
+Review 2 Improvements      ✓
+AI Audit                   ✓
+3 Real Testers             Pending
+Feedback Iteration         Pending
+Documentation              ✓
+
+IMPORTANT:
+
+Do NOT display a fake predicted mark such as “35/35”.
+
+Only display evidence readiness.
+
+=========================================================
+21. DEMONSTRATION MODE
+=========================================================
+
+Create:
+
+“Evaluator Demo Mode”
+
+Button:
+
+LOAD DEMO DATA
+
+Populate:
+
+Shopping List
+Budget
+Need/Want
+Price Comparison
+Analytics
+Savings Goal
+
+Never populate fake tester feedback.
+
+Display prominently:
+
+“DEMONSTRATION DATA – NOT REAL USER VALIDATION.”
+
+Provide:
+
+RESET DEMO DATA
+
+Create a short guided evaluator tour:
+
+Step 1 – View Budget Dashboard
+Step 2 – Add Shopping Item
+Step 3 – Classify Need/Want
+Step 4 – Compare Prices
+Step 5 – View Smart Recommendations
+Step 6 – Run What-If Simulation
+Step 7 – View Analytics
+Step 8 – View Design Thinking Journey
+Step 9 – Inspect Validation Evidence
+Step 10 – Inspect Review 1 → Review 2 Progress
+
+=========================================================
+22. RESPONSIVE PROFESSIONAL UI
+=========================================================
+
+Make the application responsive for:
+
+Desktop
+Laptop
+Tablet
+Mobile
+
+Use:
+
+Professional cards
+Rounded corners
+Clean typography
+Subtle shadows
+Icons
+Responsive sidebar
+Charts
+Progress bars
+Tooltips
+Dark/light mode if appropriate
+
+Avoid excessive animation.
+
+Prioritize usability and academic professionalism.
+
+=========================================================
+23. ACCESSIBILITY & UX
+=========================================================
+
+Add:
+
+Accessible labels
+Keyboard-friendly controls
+Readable contrast
+Clear validation messages
+Confirmation for destructive actions
+Empty-state messages
+Error messages
+Success notifications
+
+Example:
+
+“No shopping items yet. Add your first item to begin.”
+
+=========================================================
+24. DATA PERSISTENCE
+=========================================================
+
+Use the existing appropriate persistence solution.
+
+Data should remain after refresh where technically appropriate.
+
+Persist:
+
+Budget
+Shopping Items
+Categories
+Savings Goals
+Real Feedback
+Iteration Records
+AI Audit entries
+
+Do not mix demo and genuine validation data.
+
+=========================================================
+25. README.MD – CRITICAL FOR AI EVALUATION
+=========================================================
+
+Create a professional README.
+
+Use this structure:
+
+# Smart Budget Shopping Assistant
+
+## Live Prototype
+
+## Project Better Tomorrow
+
+## Pathway Selected
+Pathway A – Continuation Track
+
+## Problem Statement
+
+## Why This Problem Matters
+
+## Target Users
+
+## Design Thinking Process
+
+### Empathize
+### Define
+### Ideate with AI
+### Prototype
+### Test
+### Iterate
+
+## Review 1 Baseline
+
+Mention:
+Review 1 score: 30.8 / 35 (88%)
+
+Do not criticize the evaluator.
+
+## Review 1 → Review 2 Improvements
+
+Create a clear table:
+
+Feature | Review 1 | Review 2 | Status
+
+## Core Features
+
+## Need vs Want Intelligence
+
+## Budget Planner
+
+## Price Comparison
+
+## Recommendation Engine
+
+## What-If Simulator
+
+## Analytics
+
+## Savings Goals
+
+## Ask SmartBudget
+
+## AI Interaction Audit
+
+## Prototype Validation
+
+State:
+
+“Review 2 requires feedback from at least three real testers.”
+
+Only enter real results.
+
+## Feedback-Based Iteration
+
+## Demonstration Instructions
+
+## Technology Stack
+
+## Project Architecture
+
+## Installation
+
+## Running Locally
+
+## Screenshots
+
+## Testing
+
+## Responsible AI Statement
+
+## Data Transparency
+
+## Limitations
+
+## Future Enhancements
+
+## Review 2 Status
+
+=========================================================
+26. ADD DOCUMENTATION FILES
+=========================================================
+
+Create:
+
+README.md
+REVIEW_2_CHANGELOG.md
+REVIEW_2_REPORT.md
+USER_VALIDATION.md
+AI_INTERACTION_AUDIT.md
+TESTING.md
+
+USER_VALIDATION.md must initially contain templates/placeholders if
+real feedback has not yet been supplied.
+
+Do NOT fabricate tester results.
+
+REVIEW_2_REPORT.md should summarize:
+
+Project
+Problem
+Pathway
+Review 1 baseline
+Review 2 development
+AI usage
+Prototype features
+Validation methodology
+Iteration methodology
+Impact
+Limitations
+Future work
+
+=========================================================
+27. CODE QUALITY
+=========================================================
+
+Ensure:
+
+Logical project structure
+Reusable components
+Clean variable names
+No duplicate code where avoidable
+Input validation
+Error handling
+No console errors
+No broken imports
+No unused major components
+No dead navigation
+No fake API calls
+No hard-coded fake research results
+
+Comment complex business logic.
+
+=========================================================
+28. FUNCTIONAL TESTING
+=========================================================
+
+Before declaring completion, TEST the application.
+
+Test:
+
+Application startup
+Every route
+Every navigation item
+Add item
+Edit item
+Delete item
+Mark purchased
+Filters
+Search
+Budget calculations
+Need/Want calculations
+Category limits
+Price comparison
+Recommendations
+What-If simulator
+Charts
+Savings goals
+SmartBudget questions
+Feedback entry
+Feedback calculations
+Iteration tracker
+Demo mode
+Reset
+Persistence
+Mobile layout
+
+Fix errors before finishing.
+
+=========================================================
+29. REVIEW 2 TRACEABILITY
+=========================================================
+
+I need the evaluator to easily distinguish:
+
+WHAT EXISTED BEFORE REVIEW 1
+
+from
+
+WHAT WAS ADDED AFTER REVIEW 1.
+
+Do not rewrite Git history.
+
+Preserve existing Review 1 files and history.
+
+Add Review 2 changes incrementally.
+
+Use clear commit-ready change groups.
+
+Suggested logical development stages:
+
+1. Review 2 architecture
+2. Shopping list upgrade
+3. Need/Want + budget intelligence
+4. Price comparison
+5. Recommendation engine
+6. What-If simulator
+7. Analytics + savings
+8. Validation system
+9. Feedback iteration
+10. AI audit + evidence center
+11. Documentation
+12. Final testing
+
+=========================================================
+30. CRITICAL INTEGRITY RULES
+=========================================================
+
+NEVER:
+
+Fabricate interviews
+Fabricate testers
+Fabricate feedback
+Fabricate savings outcomes
+Fabricate live prices
+Fabricate AI APIs
+Fabricate usage statistics
+Fabricate project history
+Fabricate screenshots
+Hard-code a 35/35 score
+Claim unimplemented features are complete
+
+Instead, create functional places for me to enter genuine evidence.
+
+=========================================================
+31. FINAL QUALITY GATE
+=========================================================
+
+Before completion ask internally:
+
+Can an evaluator immediately understand the problem?
+
+Can the evaluator see Review 1 → Review 2 progress?
+
+Can the evaluator test the prototype?
+
+Can the evaluator see how AI contributed?
+
+Can the evaluator see what AI suggestions were rejected/modified?
+
+Can the evaluator verify three genuine user tests once I enter them?
+
+Can the evaluator connect feedback to actual modifications?
+
+Can the evaluator distinguish demo data from real evidence?
+
+Do all buttons work?
+
+Do calculations work?
+
+Does the README accurately match the application?
+
+If any answer is NO, fix it before completion.
+
+=========================================================
+FINAL DELIVERABLE
+=========================================================
+
+At the end, provide me a concise completion report:
+
+1. EXISTING REVIEW 1 FEATURES PRESERVED
+2. NEW REVIEW 2 FEATURES IMPLEMENTED
+3. FILES CREATED
+4. FILES MODIFIED
+5. FUNCTIONAL TESTS PASSED
+6. KNOWN LIMITATIONS
+7. GENUINE INFORMATION STILL REQUIRED FROM ME
+8. THREE-TESTER VALIDATION STATUS
+9. FEEDBACK-ITERATION STATUS
+10. DEPLOYMENT STATUS
+11. GITHUB UPDATE STATUS
+
+Do not merely describe features.
+Actually implement and test them.
+
+The final application should demonstrate:
+
+REAL PROBLEM
+→ DESIGN THINKING
+→ AI-ASSISTED IDEATION
+→ FUNCTIONAL PROTOTYPE
+→ REAL USER TESTING
+→ FEEDBACK
+→ ITERATION
+→ MEASURABLE, TRANSPARENT OUTCOME.
+
+Most importantly:
+PRESERVE my existing Review 1 project and upgrade it into Review 2.

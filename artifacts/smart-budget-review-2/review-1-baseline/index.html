@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Budget Shopping Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🛒 Smart Budget Shopping Assistant</h1>
+
+        <p class="subtitle">
+            Shop smarter and stay within your budget.
+        </p>
+
+        <div class="form-group">
+            <label for="budget">Your Shopping Budget (₹)</label>
+            <input type="number" id="budget" placeholder="Example: 2000">
+        </div>
+
+        <div class="form-group">
+            <label for="product">Product Name</label>
+            <input type="text" id="product" placeholder="Example: Rice">
+        </div>
+
+        <div class="form-group">
+            <label for="price">Price per Item (₹)</label>
+            <input type="number" id="price" placeholder="Example: 350">
+        </div>
+
+        <div class="form-group">
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" placeholder="Example: 2">
+        </div>
+
+        <button onclick="calculateBudget()">Calculate Budget</button>
+
+        <div id="result" class="result">
+            <h2>Budget Summary</h2>
+            <p id="productResult">Product: -</p>
+            <p id="totalResult">Total Cost: ₹0</p>
+            <p id="remainingResult">Remaining Budget: ₹0</p>
+            <p id="message"></p>
+        </div>
+
+        <footer>
+            <p>Project Better Tomorrow | C29 Semester 3</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
