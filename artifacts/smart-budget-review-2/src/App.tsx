@@ -340,7 +340,7 @@ function Shell() {
   const [feedback, setFeedback] = useStored<ValidationFeedback[]>('smart-budget-feedback', []);
   const [iterationRecords, setIterationRecords] = useStored<IterationRecord[]>('smart-budget-iterations', []);
   const [aiEntries, setAiEntries] = useStored<AIAuditEntry[]>('smart-budget-ai-audit', []);
-  const currentPath = location === '' ? '/' : location;
+ const currentPath = location === '' || location === '/smart-budget-shopping-assistant-review-2/' ? '/' : location.replace('/smart-budget-shopping-assistant-review-2', '') || '/';
   const currentLabel = allNav.find(([path]) => path === currentPath)?.[1] || 'Dashboard';
   const navigate = (path: string) => setLocation(path);
   const reset = () => { setBudget(initialBudget); setItems(initialItems); setGoals(initialGoals); setFeedback([]); setIterationRecords([]); setAiEntries([]); navigate('/'); };
